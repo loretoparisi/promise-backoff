@@ -6,7 +6,7 @@ to prevent the "predictable thundering hoardes" from hammering some services if 
 ## How to use this module
 For the jittered backoff part the options are 
 
-```json
+```javascript
 var options={
     randomisationFactor: 0.11304999836,
     initialDelay: 1000 * 1, // initial time msec
